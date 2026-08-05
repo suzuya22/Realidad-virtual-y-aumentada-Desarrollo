@@ -20,63 +20,9 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {
-        "6d46f7c7-07bd-493a-8b13-10201e919994": {
-          "id": "6d46f7c7-07bd-493a-8b13-10201e919994",
-          "name": "Pause Video on Image Target Lost",
-          "parameters": {
-            "videoPlayer": {
-              "type": "entity",
-              "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9"
-            },
-            "imageTargetName": "waves"
-          }
-        }
-      },
+      "components": {},
       "name": "Image Target Video",
       "prefab": true
-    },
-    "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9": {
-      "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9",
-      "position": [
-        0.13915289998742303,
-        0,
-        -0.7736398908489693
-      ],
-      "rotation": [
-        -0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        1.5,
-        1.5,
-        1.5
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 0.5625
-      },
-      "material": {
-        "type": "unlit",
-        "color": "#ffffff",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/Bit_scape_trailer_1.mp4"
-        }
-      },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "name": "Video Player",
-      "videoControls": {
-        "paused": true,
-        "loop": true,
-        "positional": true
-      },
-      "order": 1.5943903356512887,
-      "hidden": false
     },
     "95eb1534-0d1c-4fcf-9474-047dc87890bc": {
       "id": "95eb1534-0d1c-4fcf-9474-047dc87890bc",
@@ -105,100 +51,6 @@
         "name": "waves"
       },
       "order": 2.182242201057824
-    },
-    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
-      "components": {},
-      "geometry": null,
-      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
-      "light": {
-        "type": "ambient"
-      },
-      "material": null,
-      "name": "Ambient Light",
-      "position": [
-        10,
-        5,
-        5
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 0.4038940050501252
-    },
-    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
-      "camera": {
-        "type": "perspective",
-        "xr": {
-          "desktop": "disabled",
-          "xrCameraType": "world",
-          "headset": "disabled",
-          "phone": "AR",
-          "world": {
-            "disableWorldTracking": false
-          }
-        }
-      },
-      "components": {},
-      "geometry": null,
-      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
-      "material": null,
-      "name": "Camera",
-      "position": [
-        0.6284210540878191,
-        1.7284431541217975,
-        -0.5754007660860972
-      ],
-      "rotation": [
-        -4.329563786754243e-17,
-        0.7071421356412235,
-        -0.7070714249641046,
-        4.329996764776238e-17
-      ],
-      "scale": [
-        0.9999998646558026,
-        0.9999999931513284,
-        0.9999998715044747
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 1.0308214152219775
-    },
-    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
-      "components": {},
-      "geometry": null,
-      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
-      "light": {
-        "intensity": 1,
-        "type": "directional"
-      },
-      "material": null,
-      "name": "Directional Light",
-      "position": [
-        20,
-        20,
-        10
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 0.6644431107322474
     },
     "f251ec0b-764f-4b71-b107-e95fa8289f64": {
       "id": "f251ec0b-764f-4b71-b107-e95fa8289f64",
@@ -952,356 +804,6 @@
         }
       }
     },
-    "bfd86fc8-0e6c-456e-b79e-09dba267f364": {
-      "id": "bfd86fc8-0e6c-456e-b79e-09dba267f364",
-      "position": [
-        0.16728620908282577,
-        0,
-        0
-      ],
-      "rotation": [
-        -0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {
-        "ddb4be86-852e-4291-b235-2d3fd35b883f": {
-          "id": "ddb4be86-852e-4291-b235-2d3fd35b883f",
-          "name": "Pause Video on Image Target Lost",
-          "parameters": {
-            "videoPlayer": {
-              "type": "entity",
-              "id": "bf7fad6f-2adb-4b93-955d-65a6e8cf9fb9"
-            },
-            "imageTargetName": "",
-            "button": {
-              "type": "entity",
-              "id": "40db0075-9e5e-4d6b-86da-94f642e9b9e8"
-            }
-          }
-        }
-      },
-      "name": "Image Target",
-      "imageTarget": {
-        "name": "Frame1"
-      },
-      "order": 2.320539669266667,
-      "hidden": false
-    },
-    "74438611-4fb7-4e2a-bd12-31ac5e1e1dcc": {
-      "id": "74438611-4fb7-4e2a-bd12-31ac5e1e1dcc",
-      "position": [
-        0.910947536545297,
-        -0.31568858450031206,
-        -2.545234712748063e-16
-      ],
-      "rotation": [
-        -0.00753055923394839,
-        -0.030530002659877962,
-        0.006552583440695741,
-        0.9994840035065418
-      ],
-      "scale": [
-        0.5000000000000001,
-        0.5000000000000008,
-        0.5000000000000003
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "bfd86fc8-0e6c-456e-b79e-09dba267f364",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/animacionidle.glb"
-        },
-        "animationClip": "mixamo.com.001",
-        "loop": true,
-        "timeScale": 1
-      },
-      "name": "animacionidle.glb",
-      "order": 3.159865778378092,
-      "hidden": false
-    },
-    "341f4d04-f5b7-4ce7-9bb3-1c650e7254e1": {
-      "id": "341f4d04-f5b7-4ce7-9bb3-1c650e7254e1",
-      "position": [
-        0.30356496105250963,
-        -0.3937505780644439,
-        8.743019154532215e-17
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.03000000000000004,
-        0.03000000000000002,
-        0.03000000000000002
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "bfd86fc8-0e6c-456e-b79e-09dba267f364",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/Linkedin.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Linkedin.glb",
-      "order": 4.558735418880939,
-      "hidden": false
-    },
-    "2e39cd7c-2d5c-4f3d-a6ea-756202a6bc67": {
-      "id": "2e39cd7c-2d5c-4f3d-a6ea-756202a6bc67",
-      "position": [
-        0.4794421888817567,
-        -0.4110909646397872,
-        9.128053083169157e-17
-      ],
-      "rotation": [
-        -2.220446049250313e-16,
-        -1.3596310734468908e-32,
-        -1.224646799147353e-16,
-        1
-      ],
-      "scale": [
-        0.06,
-        0.06,
-        0.06
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "bfd86fc8-0e6c-456e-b79e-09dba267f364",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/Youtube.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Youtube.glb",
-      "order": 6.538784511532606,
-      "hidden": false
-    },
-    "e9f3c7f5-2b38-48fb-ab04-fa93cf075a9d": {
-      "id": "e9f3c7f5-2b38-48fb-ab04-fa93cf075a9d",
-      "position": [
-        0.1469944588578007,
-        -0.3973246214515339,
-        8.822378859719347e-17
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.03,
-        0.03,
-        0.03
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "bfd86fc8-0e6c-456e-b79e-09dba267f364",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/Github.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Github.glb",
-      "order": 9.415760247707725,
-      "hidden": false
-    },
-    "40db0075-9e5e-4d6b-86da-94f642e9b9e8": {
-      "id": "40db0075-9e5e-4d6b-86da-94f642e9b9e8",
-      "position": [
-        0.14022522209089122,
-        0.018670576687578044,
-        -0.7583630869301683
-      ],
-      "rotation": [
-        -0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        0.4,
-        0.4,
-        0.4
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "ui": {
-        "type": "3d",
-        "width": 100,
-        "height": 36,
-        "background": "#ad50ff",
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "backgroundOpacity": 1,
-        "padding": "10",
-        "gap": "6",
-        "alignItems": "center",
-        "justifyContent": "center"
-      },
-      "name": "Botón",
-      "order": 4.238995403108714,
-      "hidden": false
-    },
-    "730152f5-abda-4d8a-9f39-fddb818c9ef4": {
-      "id": "730152f5-abda-4d8a-9f39-fddb818c9ef4",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "40db0075-9e5e-4d6b-86da-94f642e9b9e8",
-      "components": {},
-      "name": "Icono",
-      "ui": {
-        "width": 16,
-        "height": 16,
-        "image": {
-          "type": "url",
-          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
-        },
-        "backgroundOpacity": 1
-      },
-      "order": 0.30357682941714825
-    },
-    "365ba039-2de6-47e1-9a77-ded745b9e93b": {
-      "id": "365ba039-2de6-47e1-9a77-ded745b9e93b",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "40db0075-9e5e-4d6b-86da-94f642e9b9e8",
-      "components": {},
-      "name": "Texto",
-      "ui": {
-        "width": 50,
-        "height": 14,
-        "text": "Button",
-        "color": "#ffffff",
-        "fontSize": 16
-      },
-      "order": 1.2141690876062685
-    },
-    "be15e4f7-d9e7-4a52-a238-4383ccb37ede": {
-      "id": "be15e4f7-d9e7-4a52-a238-4383ccb37ede",
-      "position": [
-        0.6789346663243285,
-        0.3457903038206842,
-        -0.6643698202944031
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        0.2,
-        0.2,
-        0.2
-      ],
-      "geometry": {
-        "type": "sphere",
-        "radius": 0.5
-      },
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF"
-      },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {
-        "2e79f442-7c9e-4b46-97d6-ec183c2e815b": {
-          "id": "2e79f442-7c9e-4b46-97d6-ec183c2e815b",
-          "name": "rotate-animation",
-          "parameters": {
-            "toX": 10,
-            "toY": 10,
-            "toZ": 10,
-            "duration": 10000,
-            "reverse": true
-          }
-        },
-        "9c78a102-16fa-4ae3-b3d5-cb437cde0cda": {
-          "id": "9c78a102-16fa-4ae3-b3d5-cb437cde0cda",
-          "name": "position-animation",
-          "parameters": {
-            "fromX": 1.264,
-            "fromY": 0.346,
-            "fromZ": -0.664,
-            "toX": 0.858,
-            "toY": 0.346,
-            "toZ": -0.664,
-            "reverse": true,
-            "duration": 10000
-          }
-        },
-        "5296fe58-6cc1-4a0c-ab4e-caec83d8dd1a": {
-          "id": "5296fe58-6cc1-4a0c-ab4e-caec83d8dd1a",
-          "name": "Custom Component",
-          "parameters": {}
-        }
-      },
-      "name": "Esfera",
-      "order": 5.673034698543557,
-      "hidden": true
-    },
     "dbf2f8f8-67c8-4bd1-b44e-b6b41fd16d50": {
       "id": "dbf2f8f8-67c8-4bd1-b44e-b6b41fd16d50",
       "position": [
@@ -1361,18 +863,18 @@
     "c7c4b534-6a21-432a-be7b-3d032a146766": {
       "id": "c7c4b534-6a21-432a-be7b-3d032a146766",
       "position": [
-        0.30967857994901815,
-        2.738536132204603,
-        -0.4311349227245809
+        0.3302303342168418,
+        1.16211688086279,
+        -0.41209284919684286
       ],
       "rotation": [
-        -0.002977645882655978,
-        0.7071358651998114,
-        -0.7070651551481355,
-        -0.002977943662135904
+        -0.0029152678260517505,
+        0.7071011251557338,
+        -0.7071004180549624,
+        -0.0029152707413209475
       ],
       "scale": [
-        1,
+        0.9999999999999999,
         1,
         1
       ],
@@ -1382,7 +884,13 @@
       "components": {},
       "name": "Cámara",
       "camera": {
-        "type": "perspective"
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled"
+        }
       },
       "order": 2.4504965142303448
     },
@@ -1406,23 +914,7 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {
-        "ddb4be86-852e-4291-b235-2d3fd35b883f": {
-          "id": "ddb4be86-852e-4291-b235-2d3fd35b883f",
-          "name": "Pause Video on Image Target Lost",
-          "parameters": {
-            "videoPlayer": {
-              "type": "entity",
-              "id": "9ae339dd-8414-4483-abfa-d72a1789bbea"
-            },
-            "imageTargetName": "",
-            "button": {
-              "type": "entity",
-              "id": "9287630f-6bd3-488c-aeb9-72d46c3e3a99"
-            }
-          }
-        }
-      },
+      "components": {},
       "name": "Image Target",
       "imageTarget": {
         "name": "Frame1"
@@ -1487,7 +979,15 @@
       "geometry": null,
       "material": null,
       "parentId": "8360209f-38d3-4ac4-be5d-66e08a9f8303",
-      "components": {},
+      "components": {
+        "879db3d8-5e55-439d-aee7-432b9d976f3b": {
+          "id": "879db3d8-5e55-439d-aee7-432b9d976f3b",
+          "name": "Open URL UI Button",
+          "parameters": {
+            "url": "https://www.linkedin.com/in/jun-sebastian-lopez-martinez-11a976380/"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -1497,13 +997,13 @@
         "loop": true
       },
       "name": "Linkedin.glb",
-      "order": 2,
+      "order": -0.20033731289130063,
       "hidden": false
     },
     "6d4777ad-3313-4347-8632-099c9f35e644": {
       "id": "6d4777ad-3313-4347-8632-099c9f35e644",
       "position": [
-        0.4794421888817567,
+        0.4740598542783465,
         -0.4110909646397872,
         9.128053083169157e-17
       ],
@@ -1555,7 +1055,15 @@
       "geometry": null,
       "material": null,
       "parentId": "8360209f-38d3-4ac4-be5d-66e08a9f8303",
-      "components": {},
+      "components": {
+        "17e83cb7-26c0-4d04-a740-d7f3986d75b2": {
+          "id": "17e83cb7-26c0-4d04-a740-d7f3986d75b2",
+          "name": "Open URL UI Button",
+          "parameters": {
+            "url": "https://github.com/suzuya22"
+          }
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -1571,15 +1079,15 @@
     "9287630f-6bd3-488c-aeb9-72d46c3e3a99": {
       "id": "9287630f-6bd3-488c-aeb9-72d46c3e3a99",
       "position": [
-        0.14022522209089122,
-        0.018670576687578044,
-        -0.7583630869301683
+        -0.027060986991934544,
+        0.7583630869301683,
+        0.018670576687577874
       ],
       "rotation": [
-        -0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
         0.4,
@@ -1588,12 +1096,23 @@
       ],
       "geometry": null,
       "material": null,
-      "components": {},
+      "components": {
+        "ff1f97f8-f557-46d6-bfc2-ad74501c6f5c": {
+          "id": "ff1f97f8-f557-46d6-bfc2-ad74501c6f5c",
+          "name": "Play Pause Video UI Button",
+          "parameters": {
+            "videoPlayer": {
+              "type": "entity",
+              "id": "9ae339dd-8414-4483-abfa-d72a1789bbea"
+            }
+          }
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 100,
         "height": 36,
-        "background": "#ad50ff",
+        "background": "#dbac61",
         "borderRadius": 18,
         "flexDirection": "row",
         "backgroundOpacity": 1,
@@ -1605,22 +1124,22 @@
         "flexWrap": "nowrap"
       },
       "name": "Botón",
-      "order": 3.9521263623755183,
+      "order": -2.8556857103376165,
       "hidden": false,
-      "parentId": "89b0987e-a53e-4099-8449-c54df8097daa"
+      "parentId": "8360209f-38d3-4ac4-be5d-66e08a9f8303"
     },
     "9ae339dd-8414-4483-abfa-d72a1789bbea": {
       "id": "9ae339dd-8414-4483-abfa-d72a1789bbea",
       "position": [
-        0.13915289998742303,
-        0,
-        -0.7736398908489693
+        -0.028133309095402736,
+        0.7736398908489693,
+        -1.7178256391780374e-16
       ],
       "rotation": [
-        -0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
         1.5,
@@ -1647,43 +1166,9 @@
         "loop": true,
         "positional": true
       },
-      "order": 4.202941286448105,
+      "order": 5.428175380917252,
       "hidden": false,
-      "parentId": "89b0987e-a53e-4099-8449-c54df8097daa"
-    },
-    "e9f4e9fb-575c-4d59-9c00-1b0381ef3410": {
-      "id": "e9f4e9fb-575c-4d59-9c00-1b0381ef3410",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "9287630f-6bd3-488c-aeb9-72d46c3e3a99",
-      "components": {},
-      "name": "Icono",
-      "ui": {
-        "width": 16,
-        "height": 16,
-        "image": {
-          "type": "url",
-          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
-        },
-        "backgroundOpacity": 1
-      },
-      "order": 7
+      "parentId": "8360209f-38d3-4ac4-be5d-66e08a9f8303"
     },
     "c1cacdbd-955a-4418-9d0c-e884d79efe26": {
       "id": "c1cacdbd-955a-4418-9d0c-e884d79efe26",
@@ -1711,26 +1196,356 @@
       "ui": {
         "width": 50,
         "height": 14,
+        "text": "Pausa",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "textAlign": "center",
+        "verticalTextAlign": "start"
+      },
+      "order": 8
+    },
+    "4e7442a5-b785-49a8-9004-d93b7ad9caff": {
+      "id": "4e7442a5-b785-49a8-9004-d93b7ad9caff",
+      "position": [
+        -0.16701787222189068,
+        0.24750842095626613,
+        0.08266085963977643
+      ],
+      "rotation": [
+        -1.0751377381030394e-16,
+        2.361270737389872e-32,
+        -1.7033394793615208e-16,
+        1
+      ],
+      "scale": [
+        2.28755520672564,
+        4.401751499737881,
+        1.2013973769459196
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6d4777ad-3313-4347-8632-099c9f35e644",
+      "components": {
+        "54edfce7-dd8b-4589-93e5-5dfc37231d5c": {
+          "id": "54edfce7-dd8b-4589-93e5-5dfc37231d5c",
+          "name": "Open URL UI Button",
+          "parameters": {
+            "url": "https://www.youtube.com/@junsebastianlopezmartinez7205"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button",
+      "order": 5.168787964732459,
+      "hidden": true
+    },
+    "0933fa08-fc49-494b-b36d-791fc6ac173f": {
+      "id": "0933fa08-fc49-494b-b36d-791fc6ac173f",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "4e7442a5-b785-49a8-9004-d93b7ad9caff",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.08808556007915169
+    },
+    "cdb24742-2f24-4b63-aa9b-c9f9ff2aef7b": {
+      "id": "cdb24742-2f24-4b63-aa9b-c9f9ff2aef7b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "4e7442a5-b785-49a8-9004-d93b7ad9caff",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
         "text": "Button",
         "color": "#ffffff",
         "fontSize": 16
       },
-      "order": 8
+      "order": 1.0290669031399804
+    },
+    "8ac370bf-3475-4e5e-bd02-5705842bea71": {
+      "id": "8ac370bf-3475-4e5e-bd02-5705842bea71",
+      "position": [
+        0.134170305206732,
+        -0.04907045643020069,
+        0.30817467692843414
+      ],
+      "rotation": [
+        2.5921573561376416e-17,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.968710216109919,
+        13.03741946406,
+        6.666666666666663
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "54edfce7-dd8b-4589-93e5-5dfc37231d5c": {
+          "id": "54edfce7-dd8b-4589-93e5-5dfc37231d5c",
+          "name": "Open URL UI Button",
+          "parameters": {
+            "url": "https://www.linkedin.com/in/jun-sebastian-lopez-martinez-11a976380/",
+            "openInNewTab": true
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button (1)",
+      "order": 5.031077960560974,
+      "hidden": true,
+      "parentId": "ce3657d5-99f0-46c3-915f-c80df1d974f5"
+    },
+    "14ae00b4-0265-48ad-83b3-ae1bdb52917e": {
+      "id": "14ae00b4-0265-48ad-83b3-ae1bdb52917e",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8ac370bf-3475-4e5e-bd02-5705842bea71",
+      "components": {},
+      "name": "Icon (1)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 1
+    },
+    "02879d95-4325-4532-a9f5-7230a92cf60f": {
+      "id": "02879d95-4325-4532-a9f5-7230a92cf60f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8ac370bf-3475-4e5e-bd02-5705842bea71",
+      "components": {},
+      "name": "Text (1)",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 2
+    },
+    "c2f65ecc-b838-4962-af3c-c37f332f1080": {
+      "id": "c2f65ecc-b838-4962-af3c-c37f332f1080",
+      "position": [
+        -0.2619941155932075,
+        0.0951973035032676,
+        0.40053667580520574
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.968710216109927,
+        13.037419464060008,
+        6.666666666666668
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "54edfce7-dd8b-4589-93e5-5dfc37231d5c": {
+          "id": "54edfce7-dd8b-4589-93e5-5dfc37231d5c",
+          "name": "Open URL UI Button",
+          "parameters": {
+            "url": "https://github.com/suzuya22"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button (2)",
+      "order": 4.410287241705275,
+      "hidden": true,
+      "parentId": "474e97ba-cc1d-401b-9ca8-b5882aa014a5"
+    },
+    "69126d32-d595-43ff-a961-2653260887fe": {
+      "id": "69126d32-d595-43ff-a961-2653260887fe",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c2f65ecc-b838-4962-af3c-c37f332f1080",
+      "components": {},
+      "name": "Icon (2)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 1
+    },
+    "1b054e3a-acff-4c72-ab9b-beff19de2ffd": {
+      "id": "1b054e3a-acff-4c72-ab9b-beff19de2ffd",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "c2f65ecc-b838-4962-af3c-c37f332f1080",
+      "components": {},
+      "name": "Text (2)",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 2
     }
   },
   "spaces": {
-    "88453035-dc0f-486d-868a-8ff7c2fda864": {
-      "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "name": "Playing Cards",
-      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
-      "includedSpaces": [
-        "0a687c86-deaf-4f23-9f7c-2acd2eeb9310"
-      ],
-      "reflections": {
-        "type": "url",
-        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
-      }
-    },
     "82dc9290-dd7d-439e-be09-8026accf61a3": {
       "id": "82dc9290-dd7d-439e-be09-8026accf61a3",
       "name": "BMO Bites",
@@ -1779,10 +1594,19 @@
     "89b0987e-a53e-4099-8449-c54df8097daa": {
       "id": "89b0987e-a53e-4099-8449-c54df8097daa",
       "name": "Escena tarjeta",
-      "activeCamera": "c7c4b534-6a21-432a-be7b-3d032a146766"
+      "activeCamera": "c7c4b534-6a21-432a-be7b-3d032a146766",
+      "includedSpaces": [],
+      "sky": {
+        "type": "gradient",
+        "style": "linear",
+        "colors": [
+          "#464766",
+          "#0F0E1A"
+        ]
+      }
     }
   },
-  "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+  "entrySpaceId": "89b0987e-a53e-4099-8449-c54df8097daa",
   "runtimeVersion": {
     "type": "version",
     "level": "major",
